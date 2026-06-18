@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f5f5;
+    color: #111;
+}
+.navbar {
+    height: 72px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.logo img {
+    width: 80px;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #111;
+    font-size: 14px;
+}
+
+.mini_menu {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    background: #f0f0f0;
+    padding: 6px 10px;
+    border-radius: 20px;
+    gap: 8px;
+}
+
+.search input {
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 120px;
+}
+
+
+.hero img {
+    width: 100%;
+    display: block;
+}
+
+.intro {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.subtitle {
+    font-size: 14px;
+    margin-bottom: 12px;
+    color: #444;
+}
+
+.intro h1 {
+    font-size: 56px;
+    margin-bottom: 18px;
+}
+
+.descr {
+    max-width: 620px;
+    margin: 0 auto 30px;
+    line-height: 1.7;
+    font-size: 14px;
+    color: #555;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.buttons button {
+    background: #111;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 999px;
+}
+
+.products {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.products h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.kartochki {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+
+.cards-section {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+footer {
+    background: #111;
+    padding: 50px 40px;
+}
+
+.footer-cont {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.col h4 {
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #aaa;
+    font-size: 12px;
+}
+
+
+.Socseti {
+    display: flex;
+    gap: 15px;
+    margin-left: auto;
+}
+
+@media (max-width: 768px) {
+
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+    }
+
+    .menu {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .kartochki,
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-cont {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .intro h1 {
+        font-size: 32px;
+    }
+}
+
+.container {
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 25px;
+    gap: 30px;
+}
+
+.sidebar {
+    width: 180px;
+}
+
+.sidebar li {
+    margin-bottom: 16px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #111;
+    font-size: 12px;
+}
+
+.products {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px 25px;
+}
+
+span{
+    color: orange;
+}
